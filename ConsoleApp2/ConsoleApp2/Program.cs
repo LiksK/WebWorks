@@ -10,7 +10,7 @@ Console.WriteLine("Измерение скорости интернета...");/
 WebClient client = new WebClient(); // создание нового вебклиента
 
 
-Stopwatch stopwatch = new Stopwatch(); // создание нового класса для измерения времени при запросе на сервер
+Stopwatch stopwatch = new Stopwatch(); // создание нового обьекта для измерения времени при запросе на сервер
 stopwatch.Start();
 
 
